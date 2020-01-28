@@ -5,7 +5,7 @@
 # To check x32 vs x64, run: getconf LONG_BIT
 # If your CPU isnt an x64 or have sse4 support, then get your .so file version at: http://asterisk.hosting.lv/
 
-# This is for internal use of "Bicom Systems Staff"
+# This script is used to download and install G729 codec to Bicomsystems PBXware.
 
 echo -------
 echo This installs the open source version of the g729 codec
