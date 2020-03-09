@@ -12,7 +12,7 @@ export RED='\033[0;31m'
 export NC='\033[0m'
 
 echo -e "${GREEN}
-   ____        _      __      ______	     __   ______          __
+   ____        _      __      ______	   __   ______          __
   / __ \__  __(_)____/ /__   / ___| |     / /  /_  __/__  _____/ /_
  / / / / / / / / ___/ //_/   \__ \| | /| / /    / / / _ \/ ___/ __/
 / /_/ / /_/ / / /__/ ,<     ___/ /| |/ |/ /    / / /  __(__  / /_
@@ -32,6 +32,7 @@ echo -e "lxc: $(lxc-ls --version)"
 echo -e -n "$(sipprot version)"
 echo -e "bssup: $(bssup --version)"
 echo -e "$(swrepl -version)"
+echo -e "$(zfs version)"
 echo -e "$(uname -a)"
 echo -e "\n"
 echo -e "\n"
